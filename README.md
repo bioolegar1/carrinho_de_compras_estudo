@@ -1,5 +1,5 @@
 <h1>South Park Loja Oficial com PHP</h1>
-<h2>Este repositório contém o código fonte de uma aplicação web simples para uma loja fictícia de produtos da série South Park, desenvolvida em PHP. A aplicação permite adicionar, remover e visualizar itens no carrinho de compras.</h2>
+<h2>Este repositório contém o código fonte de uma aplicação web simples para uma loja fictícia de produtos da série South Park, desenvolvida em PHP. <br>A aplicação permite adicionar, remover e visualizar itens no carrinho de compras.</h2>
 
 <h3>Estrutura do Projeto</h3>
 O projeto é composto pelos seguintes arquivos:
