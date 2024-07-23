@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color:rgb(233, 233, 233);
+    margin: 0;
+    padding: 20px;
+}
+
+.title-topo {
+    width: 1200px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+.title {
+    width: 1200px;
+    height: 40px;
+    background-color:#007bff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+
+.carrinho-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.produto {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.addcarrinho, .limpar-carrinho, .botao {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.addcarrinho:hover, .limpar-carrinho:hover, .botao:hover {
+    background-color: #0056b3;
+}
+
+.limpar-carrinho {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #dc3545;
+}
+
+.limpar-carrinho:hover {
+    background-color: #c82333;
+}
+
+.carrinho-item {
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 1000px;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-justify:distribute;
+    text-align: center;
+}
+
+.carrinho-item p {
+    margin: 0;
+}
+
+.botoes {
+    display: flex;
+}
+
+.botao {
+    margin-left: 5px;
+}
